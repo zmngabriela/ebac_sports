@@ -60,7 +60,7 @@ export const Plataformas = styled.ul`
     font-weight: bold;
   }
 `
-export const BtnComprar = styled.button`
+export const Btn = styled.button`
   display: block;
   width: 100%;
   background-image: linear-gradient(

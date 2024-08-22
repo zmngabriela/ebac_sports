@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const cores = {
   corTexto: '#121714',
@@ -21,14 +21,14 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${cores.corFundo};
     padding-bottom: 80px;
   }
+`
 
-  .container {
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
+export const Container = styled.div`
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
 
-    @media (max-width: 1024px) {
-      max-width: 80%;
-    }
+  @media (max-width: 1024px) {
+    max-width: 80%;
   }
 `
